@@ -1,0 +1,28 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+</script>
+<div id="controls">
+  <form>
+    <p>Tic Tac Toe</p>
+    <p>Play As: </p><input type="radio" name="playAS" value="O" checked> O&#160;&#160;
+    <input type="radio" name="playAS" value="X"> X<br><br>
+    <p>Status: </p><p id="status">Your move</p><br><br>
+    <div id="playButton">RESET</div>
+  </form>
+</div>
+<div id="board">
+  <div id="topLeft" class="square"></div>
+  <div id="topMiddle" class="square"></div>
+  <div id="topRight" class="square"></div>
+  <div id="centerLeft" class="square"></div>
+  <div id="centerMiddle" class="square"></div>
+  <div id="centerRight" class="square"></div>
+  <div id="bottomLeft" class="square"></div>
+  <div id="bottomMiddle" class="square"></div>
+  <div id="bottomRight" class="square"></div>
+</div>

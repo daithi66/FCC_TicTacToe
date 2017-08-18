@@ -1,0 +1,111 @@
+#controls {
+    border: 2px solid  #1980e6;
+    width: 320px;
+    font-family: Verdana, Arial, sans-serif;
+    font-Size: 16px;
+    line-height: 18px;
+    color: #1980E6;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    float: right;
+  }
+  #controls form p:first-child {
+    width: 100%;
+    background-color: #1980E6;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    margin-top: 0px;
+  }
+  #controls form p:nth-child(1n+2) {
+    display: inline;
+    margin-left: 10px;
+  }
+  #playButton {
+    width: 100px;
+    height: 25px;
+    color: #1980e6;
+    background-color: #e6f2ff;
+    border: 1px solid #1980e6;
+    text-align: center;
+    padding-top: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #playButton:hover {
+    background-color: #E0FFFF;
+    cursor: pointer;
+  }
+  #board {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 90px;
+    color: #1980e6;
+    width: 320px;
+    margin: auto;
+  }
+  #topLeft {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-right: 10px solid #1980e6;
+    border-bottom: 10px solid #1980e6;
+  }
+  #topMiddle {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-right: 10px solid #1980e6;
+    border-bottom: 10px solid #1980e6;
+  }
+  #topRight {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-bottom: 10px solid #1980e6;
+  }
+  #centerLeft {
+    width: 100px;
+    height: 100px;
+    clear: left;
+    float: left;
+    border-right: 10px solid #1980e6;
+    border-bottom: 10px solid #1980e6;
+  }
+  #centerMiddle {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-right: 10px solid #1980e6;
+    border-bottom: 10px solid #1980e6;
+  }
+  #centerRight {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-bottom: 10px solid #1980e6;
+  }
+  #bottomLeft {
+    width: 100px;
+    height: 100px;
+    clear: left;
+    float: left;
+    border-right: 10px solid #1980e6;
+  }
+  #bottomMiddle {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-right: 10px solid #1980e6;
+  }
+  #bottomRight {
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
